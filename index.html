@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1>Encriptador de Texto</h1>
+            <textarea id="inputText" placeholder="Introduce tu texto aquí..."></textarea>
+            <div class="buttons">
+                <button id="encryptButton">Cifrar</button>
+                <button id="decryptButton">Descifrar</button>
+            </div>
+            <div id="validationMessage"></div>
+        </div>
+        <div class="right-section">
+            <div class="output" id="outputText"></div>
+            <button id="copyButton">Copiar</button>
+        </div>
+    </div>
+    <footer>
+        <p>Miguel Andrés Ortiz Coilla &copy; 2024</p>
+    </footer>
+    <script src="encriptador.js"></script>
+</body>
+</html>
